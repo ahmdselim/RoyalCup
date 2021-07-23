@@ -1,0 +1,19 @@
+.each-slide span {
+  text-align: center;
+  line-height: 22px;
+  letter-spacing: 0px;
+  font-weight: 700;
+  font-size: 22px;
+  white-space: normal;
+  display: flex;
+  align-items: center;
+  margin: 0 !important;
+  padding: 0 !important;
+}
+.each-slide > div {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 450px !important;
+  background-size: cover !important;
+}

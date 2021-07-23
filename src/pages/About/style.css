@@ -1,0 +1,53 @@
+.about {
+  width: 100%;
+  margin: auto;
+  background-color: #f9f5f0;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+.about h2 {
+  text-align: center;
+  padding: 10px;
+  font-size: 25px;
+  font-weight: bolder;
+  color: #555;
+}
+.about .react-tabs {
+  display: flex;
+  justify-content: space-around;
+}
+.about .react-tabs ul.react-tabs__tab-list {
+  border-bottom: none !important;
+  margin: 0 0 10px;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+}
+
+.about .react-tabs ul.react-tabs__tab-list li.react-tabs__tab {
+  display: inline-block;
+  border: none;
+  border-bottom: none;
+  bottom: -1px;
+  position: relative;
+  list-style: none;
+  padding: 6px 12px;
+  cursor: pointer;
+  border-left: 4px solid #ddd;
+  margin-bottom: 15px;
+}
+.about .react-tabs ul.react-tabs__tab-list li.react-tabs__tab .react-tabs__tab {
+  background: #fff;
+  border-color: none;
+  color: black;
+  border-radius: none;
+}
+.about .react-tabs ul li {
+  font-size: 17px;
+  font-weight: bolder;
+  color: #555;
+  letter-spacing: 1px;
+}
+.about .react-tabs ul li:last-of-type {
+  margin-bottom: 0px !important;
+}

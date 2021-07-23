@@ -1,0 +1,134 @@
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.container .header-blog {
+  display: block;
+  justify-content: space-around;
+  align-items: center;
+  padding: 50px;
+}
+.container .header-blog ul {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.container .header-blog ul li.list-item-icons svg {
+  margin-left: 20px;
+}
+.container .navbar-blog {
+  width: 50%;
+  margin: auto;
+  margin-bottom: 20px;
+}
+.container .navbar-blog ul {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.container .posts-area {
+  width: 80%;
+  margin: 50px auto;
+}
+.container .posts-area .row {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-flow: row wrap;
+}
+.container .posts-area .row .post {
+  text-align: center;
+  flex-basis: 30.33%;
+  max-width: 30.33%;
+  margin-left: 3%;
+  margin-bottom: 50px;
+}
+.container .posts-area .row .post .image-post img {
+  width: 100%;
+}
+.container .social-area {
+  width: 80%;
+  margin: 50px auto;
+}
+.container .social-area ul {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+}
+.container .social-area ul li {
+  cursor: pointer;
+  color: #464646;
+  transition: all 0.5s ease-in-out;
+}
+.container .social-area ul li:hover {
+  opacity: 0.5;
+}
+.container .social-area ul li svg {
+  margin-right: 10px;
+}
+.container .footer-area {
+  text-align: center;
+  padding-bottom: 10px;
+}
+.container .blog-post {
+  width: 80%;
+  margin: auto;
+}
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+  .container .navbar-blog ul li {
+    margin-right: 20px;
+  }
+  .container .posts-area .row .post {
+    text-align: center;
+    flex-basis: 100%;
+    max-width: 100%;
+  }
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+  .container .navbar-blog ul li {
+    margin-right: 20px;
+  }
+  .container .posts-area .row .post {
+    text-align: center;
+    flex-basis: 100%;
+    max-width: 100%;
+  }
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+  .container .posts-area .row .post {
+    text-align: center;
+    flex-basis: 47%;
+    max-width: 47%;
+    margin-left: 3%;
+  }
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+  .container .posts-area .row .post {
+    text-align: center;
+    flex-basis: 30.33%;
+    max-width: 30.33%;
+    margin-left: 1%;
+    margin-bottom: 10px;
+  }
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+  .container .posts-area .row .post {
+    text-align: center;
+    flex-basis: 30.33%;
+    max-width: 30.33%;
+    margin-left: 3%;
+  }
+}

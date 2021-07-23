@@ -1,0 +1,103 @@
+.wrapper {
+  position: relative;
+  text-align: center;
+  padding-top: 30px !important;
+  padding-bottom: 30px !important;
+}
+.wrapper img {
+  width: 100%;
+  height: 200px;
+}
+.wrapper .wrapper-desc {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: #fff;
+}
+.wrapper .wrapper-desc h3 {
+  margin-bottom: 10px;
+  font-size: 25px;
+}
+.wrapper .wrapper-desc strong a {
+  color: #fff;
+  margin: 0px 5px 0px 5px;
+  transition: all 0.5s ease-in-out;
+}
+.wrapper .wrapper-desc strong a:hover {
+  color: #f2cd90;
+}
+.products-section {
+  width: 80%;
+  margin: auto;
+  display: flex;
+  justify-content: space-around;
+  background-color: #fff;
+}
+.products-section .product-gallery {
+  flex-basis: 40%;
+  max-width: 40%;
+  margin-right: 1%;
+}
+
+.products-section .product-desc {
+  flex-basis: 60%;
+  max-width: 60%;
+  text-align: right;
+}
+.products-section .product-desc h2 {
+  padding-top: 20px;
+  padding-bottom: 20px;
+  margin-right: 10px;
+}
+.products-section .product-desc hr {
+  margin: 10px auto;
+  width: 90%;
+}
+.products-section .product-desc strong {
+  padding-top: 20px;
+  padding-bottom: 20px;
+  margin-right: 30px;
+}
+.products-section .product-desc p {
+  padding-top: 20px;
+  padding-bottom: 20px;
+  margin-right: 30px;
+}
+.products-section .product-desc .icons-share {
+  margin-right: 10px;
+}
+.products-section .product-desc .icons-share svg {
+  margin-right: 20px;
+  font-size: 20px;
+  transition: all 0.5s ease-in-out;
+  cursor: pointer;
+}
+.products-section .product-desc .icons-share svg:hover {
+  color: #9388d3;
+}
+@media (max-width: 992px) {
+  .products-section {
+    flex-direction: column-reverse;
+  }
+  .products-section .product-gallery {
+    flex-basis: 100%;
+    max-width: 100%;
+    text-align: center;
+    margin-top: 20px;
+  }
+  .products-section .product-gallery .swiper-slide div {
+    /* width: 100% !important; */
+    /* height: 10% !important; */
+    margin: auto;
+  }
+
+  .products-section .product-desc {
+    flex-basis: 100%;
+    max-width: 100%;
+    text-align: right;
+  }
+  .products-section .product-desc h2 {
+    text-align: center;
+  }
+}
